@@ -146,6 +146,7 @@ def compute_MIS_with_expand_multiprocessing(start_kb,g):
 
 if __name__ == '__main__':
 
+    print(sys.argv)
     file_path = sys.argv[1] if (len(sys.argv)>1) else "mysolver/data/test_small.txt"
 
     # Open the file for reading
