@@ -161,6 +161,7 @@ if __name__ == '__main__':
         file_contents = ""
 
     start_kb = file_contents
+    print(start_kb)
 
 
 
